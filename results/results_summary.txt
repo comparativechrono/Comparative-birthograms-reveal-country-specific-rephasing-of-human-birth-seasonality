@@ -1,0 +1,51 @@
+Birth seasonality in France and Germany: revised analysis
+births per day: True;  trimming: 0.15;  bootstrap replicates: 9999 (second level for sup-F: 999 per first-level series; for the logistic transition: 499 for each of 1999)
+Asymptotic sup-F critical values for independent errors (Andrews 2003): {0.1: 7.12, 0.05: 8.68, 0.01: 12.16}
+
+=== Germany: monthly data Jan 1950 to Dec 2024 (900 months); annual metrics 1951-2023 (n=73) ===
+Peak month: largest shift in mean between 1979 and 1980 (95% CI 1978-1980); mean 3.28 -> 8.39 month number
+    with monthly counts redrawn as Poisson variates the break falls after 1974 in 0.1%, 1975 in 19.9%, 1978 in 21.1%, 1979 in 59.0% of 1999 replicates (central 95% range 1975-1979)
+    REPORTED 95% interval (the Bai interval widened to that range): last year of the earlier regime 1975-1980, i.e. the switch falls between 1975/76 and 1980/81
+    sup-F = 489.4; p = 0.0009 (double bootstrap, AR(2) errors fitted under the null)   [not reported: single bootstrap p = 0.0009; i.i.d. asymptotic p = 5e-06]
+Phase (acrophase): largest shift in mean between 1980 and 1981 (95% CI 1978-1982); mean 3.63 -> 6.69 months since 1 Jan  = 21 Apr -> 23 Jul
+    sup-F = 378.4; p = 0.0353 (double bootstrap, AR(3) errors fitted under the null)   [not reported: single bootstrap p = 0.0074; i.i.d. asymptotic p = 5e-06]
+Amplitude (peak-to-trough): largest shift in mean between 2005 and 2006 (95% CI 2004-2012); mean 14.15 -> 17.66 % of trend
+    sup-F = 42.2; p = 0.0630 (double bootstrap, AR(2) errors fitted under the null)   [not reported: single bootstrap p = 0.0396; i.i.d. asymptotic p = 5e-06]
+Logistic transition in phase: mid-point 1981.25 (95% CI 1979.00-1983.25); central 80% of the shift took 30.5 years (95% CI 23.0-39.5); plateaus 4 Apr -> 7 Aug; residual errors AR(0)
+    [calibrated with one common level instead of tail by tail: 1979.00-1983.25 and 23.0-39.5]
+    [not reported: plain percentile intervals 1979.25-1983.00 and 23.5-39.5, which would have covered the truth in 93% and 94% of the 1999 series simulated from the fitted model]
+    abrupt step vs gradual transition: residual sum of squares 31.02 (step) vs 10.66 (logistic); likelihood ratio 78.0 (95th percentile under an abrupt step: 7.3); bootstrap p = 0.0001
+    fitted acrophase passes 1 June in 1980.3
+    fitted acrophase passes 1 July in 1987.3
+    fitted transition 10% complete in 1966.0, 90% complete in 1996.5
+    shifts in mean phase chosen by BIC (descriptive; assumes independent errors): 3 (after 1971, 1980, 1994)
+    shifts in mean phase chosen by LWZ (descriptive; assumes independent errors): 3 (after 1971, 1980, 1994)
+    peak month 1951-1979: Mar 17, Feb 5, May 4, Apr 2, Jun 1
+    peak month 1980-2023: Sep 30, Jul 13, Aug 1
+    mean phase 1951-1970: 3.30 (11 Apr); mean amplitude 15.2%
+    mean phase 2004-2023: 7.16 (7 Aug); mean amplitude 17.3%
+
+=== France: monthly data Jan 1946 to Dec 2024 (948 months); annual metrics 1947-2023 (n=77) ===
+Peak month: largest shift in mean between 1989 and 1990 (95% CI 1987-1991); mean 4.77 -> 7.59 month number
+    with monthly counts redrawn as Poisson variates the break falls after 1988 in 6.9%, 1989 in 93.1% of 1999 replicates (central 95% range 1988-1989)
+    REPORTED 95% interval (the Bai interval widened to that range): last year of the earlier regime 1987-1991, i.e. the switch falls between 1987/88 and 1991/92
+    sup-F = 166.9; p = 0.0039 (double bootstrap, AR(2) errors fitted under the null)   [not reported: single bootstrap p = 0.0085; i.i.d. asymptotic p = 5e-06]
+Phase (acrophase): largest shift in mean between 1989 and 1990 (95% CI 1986-1991); mean 4.34 -> 7.44 months since 1 Jan  = 13 May -> 15 Aug
+    sup-F = 282.1; p = 0.1875 (double bootstrap, AR(3) errors fitted under the null)   [not reported: single bootstrap p = 0.0439; i.i.d. asymptotic p = 5e-06]
+Amplitude (peak-to-trough): largest shift in mean between 1983 and 1984 (95% CI 1975-1993); mean 14.59 -> 10.41 % of trend
+    sup-F = 53.4; p = 0.3222 (double bootstrap, AR(2) errors fitted under the null)   [not reported: single bootstrap p = 0.1931; i.i.d. asymptotic p = 5e-06]
+Logistic transition in phase: mid-point 1990.50 (95% CI 1986.00-1997.25); central 80% of the shift took 43.0 years (95% CI 27.0-88.0); plateaus 22 Apr -> 14 Sep; residual errors AR(1)
+    [calibrated with one common level instead of tail by tail: 1985.75-1997.25 and 26.0-82.0]
+    [not reported: plain percentile intervals 1987.00-1995.00 and 29.5-66.0, which would have covered the truth in 88% and 86% of the 1999 series simulated from the fitted model]
+    abrupt step vs gradual transition: residual sum of squares 48.62 (step) vs 15.77 (logistic); likelihood ratio 86.7 (95th percentile under an abrupt step: 12.0); bootstrap p = 0.0001
+    fitted acrophase passes 1 June in 1981.0
+    fitted acrophase passes 1 July in 1989.8
+    fitted transition 10% complete in 1969.0, 90% complete in 2012.0
+    shifts in mean phase chosen by BIC (descriptive; assumes independent errors): 5 (after 1959, 1973, 1981, 1989, 2001)
+    shifts in mean phase chosen by LWZ (descriptive; assumes independent errors): 3 (after 1973, 1989, 2001)
+    peak month 1953-1989: May 30, Apr 2, Jun 2, Feb 1, Mar 1, Jul 1
+    peak month 1990-2004: Jul 14, Sep 1
+    peak month 2005-2023: Jul 11, Sep 6, Oct 2
+    peak in September or October: 9 of 34 years from 1990 (1998, 2005, 2006, 2007, 2010, 2012, 2014, 2015, 2021)
+    mean phase 1951-1970: 3.94 (1 May); mean amplitude 13.5%
+    mean phase 2004-2023: 8.06 (3 Sep); mean amplitude 10.7%

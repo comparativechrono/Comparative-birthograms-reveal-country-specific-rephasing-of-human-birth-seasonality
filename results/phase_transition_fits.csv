@@ -1,0 +1,3 @@
+country,midpoint,mid_ci_low,mid_ci_high,duration_10_90,dur_ci_low,dur_ci_high,mid_symmetric_low,mid_symmetric_high,dur_symmetric_low,dur_symmetric_high,mid_percentile_low,mid_percentile_high,dur_percentile_low,dur_percentile_high,lower_plateau,upper_plateau,rss_logistic,rss_step,lr_step_vs_logistic,p_step
+Germany,1981.2500,1979.0000,1983.2500,30.5000,23.0000,39.5000,1979.0000,1983.2500,23.0000,39.5000,1979.2500,1983.0000,23.5000,39.5000,3.0511,7.1660,10.6605,31.0175,77.9647,0.0001
+France,1990.5000,1986.0000,1997.2500,43.0000,27.0000,88.0000,1985.7500,1997.2500,26.0361,82.0000,1987.0000,1995.0000,29.5000,66.0000,3.6558,8.4126,15.7733,48.6237,86.6860,0.0001

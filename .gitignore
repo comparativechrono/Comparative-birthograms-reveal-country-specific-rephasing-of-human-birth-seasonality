@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# written by figure1.py (600 dpi, large); Figure1.pdf and Figure1.png are kept
+Figure1.tiff

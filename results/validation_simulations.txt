@@ -1,0 +1,28 @@
+VALIDATION OF THE INFERENTIAL PROCEDURES BY SIMULATION
+
+A. HOW OFTEN IS A SHIFT "FOUND" AT THE 5% LEVEL WHEN THERE IS NONE? (500 series per row; 199 bootstrap replicates at each level)
+   AR(1) coefficient 0.0, n = 73: i.i.d. critical value 6.0%; single bootstrap 4.8%; double bootstrap (reported) 4.8%; errors estimated after removing the best shift 7.0%
+   AR(1) coefficient 0.6, n = 77: i.i.d. critical value 58.4%; single bootstrap 5.4%; double bootstrap (reported) 6.4%; errors estimated after removing the best shift 16.0%
+   AR(1) coefficient 0.9, n = 73: i.i.d. critical value 94.8%; single bootstrap 6.2%; double bootstrap (reported) 5.8%; errors estimated after removing the best shift 31.6%
+   no-shift model fitted to Germany peak month (AR(2), coefficients sum to 0.92): i.i.d. critical value 94.8%; single bootstrap 7.6%; double bootstrap (reported) 2.8%; errors estimated after removing the best shift 49.6%
+   no-shift model fitted to Germany acrophase (AR(3), coefficients sum to 0.97): i.i.d. critical value 97.4%; single bootstrap 26.6%; double bootstrap (reported) 12.2%; errors estimated after removing the best shift 71.6%
+   no-shift model fitted to Germany amplitude (AR(2), coefficients sum to 0.63): i.i.d. critical value 64.8%; single bootstrap 8.2%; double bootstrap (reported) 4.8%; errors estimated after removing the best shift 30.2%
+   no-shift model fitted to France peak month (AR(2), coefficients sum to 0.84): i.i.d. critical value 93.0%; single bootstrap 6.8%; double bootstrap (reported) 4.4%; errors estimated after removing the best shift 41.4%
+   no-shift model fitted to France acrophase (AR(3), coefficients sum to 0.97): i.i.d. critical value 96.4%; single bootstrap 23.2%; double bootstrap (reported) 10.6%; errors estimated after removing the best shift 66.2%
+   no-shift model fitted to France amplitude (AR(2), coefficients sum to 0.83): i.i.d. critical value 86.4%; single bootstrap 4.2%; double bootstrap (reported) 3.0%; errors estimated after removing the best shift 37.4%
+
+B. COVERAGE OF THE 95% INTERVAL FOR THE BREAK YEAR (2,000 series per row)
+   Germany peak month (step 3.28 -> 8.39, AR(0) errors): interval covers the true break year in 100.0% of series; median width 3 years; break year estimated exactly in 99%
+   Germany acrophase (step 3.63 -> 6.69, AR(1) errors): interval covers the true break year in 99.4% of series; median width 4 years; break year estimated exactly in 97%
+   Germany amplitude (step 14.15 -> 17.66, AR(0) errors): interval covers the true break year in 93.2% of series; median width 8 years; break year estimated exactly in 55%
+   France peak month (step 4.77 -> 7.59, AR(0) errors): interval covers the true break year in 98.7% of series; median width 4 years; break year estimated exactly in 90%
+   France acrophase (step 4.34 -> 7.44, AR(1) errors): interval covers the true break year in 98.0% of series; median width 5 years; break year estimated exactly in 94%
+   France amplitude (step 14.59 -> 10.41, AR(2) errors): interval covers the true break year in 76.3% of series; median width 12 years; break year estimated exactly in 43%
+
+C. TEST OF AN INSTANTANEOUS STEP AGAINST A GRADUAL TRANSITION, WHEN THE STEP IS TRUE (1,000 series per row; 499 bootstrap replicates)
+   Germany (one step with AR(1) errors, as fitted): the test rejects the step at the 5% level in 5.8% of series; largest likelihood ratio in 1,000 such series 23.3 (observed in the data: 78.0)
+   France (one step with AR(1) errors, as fitted): the test rejects the step at the 5% level in 9.8% of series; largest likelihood ratio in 1,000 such series 56.1 (observed in the data: 86.7)
+
+D. COVERAGE OF PLAIN PERCENTILE 95% INTERVALS FOR THE LOGISTIC TRANSITION (1,000 series per row; 499 bootstrap replicates) - the reported intervals are calibrated instead
+   Germany (logistic transition with AR(0) errors, as fitted): the percentile interval covers the true mid-point in 93.6% and the true duration in 94.1% of series
+   France (logistic transition with AR(1) errors, as fitted): the percentile interval covers the true mid-point in 88.7% and the true duration in 88.5% of series

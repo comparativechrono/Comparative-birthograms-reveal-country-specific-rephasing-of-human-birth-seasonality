@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, these data or these results, please cite the version archived on Zenodo: https://doi.org/10.5281/zenodo.19066197"
+title: "Comparative birthograms reveal country-specific rephasing of human birth seasonality: analysis code, data and results"
+type: software
+authors:
+  - family-names: Hearn
+    given-names: Timothy J
+    affiliation: "Department of Genomic Medicine, University of Cambridge"
+  - family-names: Lloyd-Owen
+    given-names: Bethan
+    affiliation: "Department of Genomic Medicine, University of Cambridge"
+keywords:
+  - birth seasonality
+  - birthogram
+  - chronobiology
+  - demography
+  - structural break
+  - bootstrap
+  - Germany
+  - France
+doi: 10.5281/zenodo.19066197
+repository-code: "https://github.com/comparativechrono/Comparative-birthograms-reveal-country-specific-rephasing-of-human-birth-seasonality"
